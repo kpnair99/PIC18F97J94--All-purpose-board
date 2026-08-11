@@ -1,0 +1,452 @@
+Microchip MPLAB XC8 Compiler V3.00
+
+Linker command line:
+
+-W-3 \
+  --edf=C:\Program Files\Microchip\xc8\v3.00\pic\dat\20241204225717_en.msgs \
+  -cn -h+dist/default/debug\PIC18F97J94_ACCELAROMETER.X.debug.sym \
+  --cmf=dist/default/debug\PIC18F97J94_ACCELAROMETER.X.debug.cmf -z \
+  -Q18F97J94 -oC:\Users\emira\AppData\Local\Temp\xcAs2kg.\driver_tmp_3.o \
+  --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
+  -Mdist/default/debug/PIC18F97J94_ACCELAROMETER.X.debug.map \
+  --md=C:\Users\emira\AppData\Local\Temp\xcAs2kg.\driver_tmp_0.dat -E1 \
+  -ver=XC8 Compiler -ACODE=00h-01FFEFh -ACONST=00h-01FFEFh \
+  -ASMALLCONST=01000h-010FFhx240,011000h-0110FFhx239,01FF00h-01FFEFh \
+  -AMEDIUMCONST=01000h-0FFFFh,011000h-01FFEFh -ACOMRAM=01h-05Fh \
+  -AABS1=00h-0DF9h -ABIGRAM=01h-0DF9h \
+  -ARAM=060h-0FFh,0100h-01FFhx12,0D00h-0DF9h -ABANK0=060h-0FFh \
+  -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh -ABANK3=0300h-03FFh \
+  -ABANK4=0400h-04FFh -ABANK5=0500h-05FFh -ABANK6=0600h-06FFh \
+  -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh -ABANK9=0900h-09FFh \
+  -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh -ABANK12=0C00h-0CFFh \
+  -ABANK13=0D00h-0DF9h \
+  -ASFR=0DFAh-0DFFh,0E00h-0EFFh,0F00h-0F5Fh,0F60h-0FFCh \
+  -ABIGSFR=0DFAh-0FFCh -ACONFIG=01FFF0h-01FFFFh \
+  -preset_vec=00h,intcode=8h,intcodelo=18h,sivt_lo,sivt_hi=CODE \
+  -ppowerup=CODE,init -pramtop=01000h -psmallconst=SMALLCONST \
+  -pmediumconst=MEDIUMCONST -pconst=CONST -AFARRAM=00h-00h \
+  -pjflash_buffer=01FBF8h \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
+  C:\Users\emira\AppData\Local\Temp\xcAs2kg.\driver_tmp_9.o \
+  dist/default/debug\PIC18F97J94_ACCELAROMETER.X.debug.o 
+
+Object code version is 3.11
+
+Machine type is 18F97J94
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\emira\AppData\Local\Temp\xcAs2kg.\driver_tmp_9.o
+                config                            1FFF0    1FFF0       10        0       4
+                init                              1FFEC    1FFEC        4     FFF6       0
+                reset_vec                             0        0        6        0       0
+dist/default/debug\PIC18F97J94_ACCELAROMETER.X.debug.o
+                config                            1FFF0    1FFF0       10        0       4
+                smallconst                         1000     1000        2      800       0
+                text8                              1100     1100       1A      801       0
+                text7                              1136     1136        6      801       0
+                text6                              1130     1130        6      801       0
+                text5                              10C8     10C8       1E      801       0
+                text4                              10AA     10AA       1E      801       0
+                text3                              10E6     10E6       1A      801       0
+                text2                              111A     111A       10      801       0
+                text1                              106A     106A       40      801       0
+                text0                              1002     1002       68      801       0
+                cstackCOMRAM                          1        1        4        1       1
+                cinit                              112A     112A        6      801       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CODE           
+                init                              1FFEC    1FFEC        4         0
+                reset_vec                             0        0        6         0
+                text8                              1100     1100       1A         0
+                text7                              1136     1136        6         0
+                text6                              1130     1130        6         0
+                text5                              10C8     10C8       1E         0
+                text4                              10AA     10AA       1E         0
+                text3                              10E6     10E6       1A         0
+                text2                              111A     111A       10         0
+                text1                              106A     106A       40         0
+                text0                              1002     1002       68         0
+                cinit                              112A     112A        6         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+                smallconst                         1000     1000        2         0
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+                cstackCOMRAM                          1        1        4         1
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+
+        CLASS   BANK1          
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   BANK4          
+
+        CLASS   BANK5          
+
+        CLASS   BANK6          
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BANK13         
+
+        CLASS   SFR            
+
+        CLASS   BIGSFR         
+
+        CLASS   CONFIG         
+                config                            1FFF0    1FFF0       10         4
+
+        CLASS   FARRAM         
+
+        CLASS   HEAP           
+
+        CLASS   STACK          
+
+        CLASS   IDLOC          
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000006  000006         0       0  CODE    
+                cstackCOMRAM                   000001  000004  000005         1       1  COMRAM  
+                smallconst                     001000  000002  001002       800       0  SMALLCON
+                text0                          001002  00013A  00113C       801       0  CODE    
+                init                           01FFEC  000004  01FFF0      FFF6       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            00060-000FF              A0
+        BANK1            00100-001FF             100
+        BANK10           00A00-00AFF             100
+        BANK11           00B00-00BFF             100
+        BANK12           00C00-00CFF             100
+        BANK13           00D00-00DF9              FA
+        BANK2            00200-002FF             100
+        BANK3            00300-003FF             100
+        BANK4            00400-004FF             100
+        BANK5            00500-005FF             100
+        BANK6            00600-006FF             100
+        BANK7            00700-007FF             100
+        BANK8            00800-008FF             100
+        BANK9            00900-009FF             100
+        BIGRAM           00005-00DF9             DF5
+        BIGSFR           00DFA-00FFC             203
+        CODE             00006-00FFF             FFA
+                         0113C-1FFEB           1EEB0
+        COMRAM           00005-0005F              5B
+        CONST            00006-00FFF             FFA
+                         0113C-1FFEB           1EEB0
+        MEDIUMCONST      0113C-0FFFF            EEC4
+                         11000-1FFEB            EFEC
+        RAM              00060-00DF9             100
+        SFR              00DFA-00FFC             100
+        SMALLCONST       0113C-0FFFF             100
+                         11000-1FFEB             100
+
+                                  Symbol Table
+
+LIS_ReadAxis@reg           cstackCOMRAM  00002
+LIS_ReadAxis@val           cstackCOMRAM  00003
+LIS_ReadRegister@reg       cstackCOMRAM  00002
+LIS_ReadRegister@val       cstackCOMRAM  00003
+LIS_WriteRegister@data     cstackCOMRAM  00002
+LIS_WriteRegister@reg      cstackCOMRAM  00003
+SPI2_Transfer@data         cstackCOMRAM  00001
+_ANCON1                    (abs)         00E47
+_ANCON2                    (abs)         00E46
+_ANCON3                    (abs)         00E45
+_EECON2                    (abs)         00F7E
+_INTCONbits                (abs)         00FF2
+_LATEbits                  (abs)         00F8D
+_LATGbits                  (abs)         00F8F
+_LIS_ReadAxis              text5         010C8
+_LIS_ReadRegister          text4         010AA
+_LIS_WriteRegister         text3         010E6
+_OSCCON2bits               (abs)         00F66
+_OSCCON3bits               (abs)         00F65
+_RPINR12_13bits            (abs)         00E30
+_RPOR38_39bits             (abs)         00E25
+_RPOR40_41bits             (abs)         00E26
+_SPI2_Init                 text2         0111A
+_SPI2_Transfer             text8         01100
+_SPI_CS_High               text7         01136
+_SPI_CS_Low                text6         01130
+_SSP2BUF                   (abs)         00F03
+_SSP2CON1bits              (abs)         00F19
+_SSP2CON3                  (abs)         00F39
+_SSP2STATbits              (abs)         00F1A
+_Spi_PinSet                text1         0106A
+_TRISAbits                 (abs)         00F92
+_TRISEbits                 (abs)         00F96
+_TRISFbits                 (abs)         00F97
+_TRISGbits                 (abs)         00F98
+__HRAM                     (abs)         00000
+__H__absolute__            __absolute__  00000
+__Habs1                    abs1          00000
+__Hbank0                   bank0         00000
+__Hbank1                   bank1         00000
+__Hbank10                  bank10        00000
+__Hbank11                  bank11        00000
+__Hbank12                  bank12        00000
+__Hbank13                  bank13        00000
+__Hbank2                   bank2         00000
+__Hbank3                   bank3         00000
+__Hbank4                   bank4         00000
+__Hbank5                   bank5         00000
+__Hbank6                   bank6         00000
+__Hbank7                   bank7         00000
+__Hbank8                   bank8         00000
+__Hbank9                   bank9         00000
+__Hbigbss                  bigbss        00000
+__Hbigdata                 bigdata       00000
+__Hbigram                  bigram        00000
+__Hbigsfr                  bigsfr        00000
+__Hbss                     bss           00000
+__Hcinit                   cinit         00000
+__Hclrtext                 clrtext       00000
+__Hcomram                  comram        00000
+__Hconfig                  config        20000
+__Hconst                   const         00000
+__HcstackCOMRAM            cstackCOMRAM  00000
+__Hdata                    data          00000
+__Hfarbss                  farbss        00000
+__Hfardata                 fardata       00000
+__Hheap                    heap          00000
+__Hibigdata                ibigdata      00000
+__Hidata                   idata         00000
+__Hidloc                   idloc         00000
+__Hifardata                ifardata      00000
+__Hinit                    init          1FFF0
+__Hintcode                 intcode       00008
+__Hintcode_body            intcode_body  00000
+__Hintcodelo               intcodelo     00018
+__Hintentry                intentry      00000
+__Hintret                  intret        00000
+__Hintsave_regs            intsave_regs  00000
+__Hirdata                  irdata        00000
+__Hjflash_buffer           jflash_buffer 1FBF8
+__Hmediumconst             mediumconst   00000
+__HnvFARRAM                nvFARRAM      00000
+__Hnvbit                   nvbit         00000
+__Hnvrram                  nvrram        00000
+__Hparam                   rparam        00000
+__Hpowerup                 powerup       00000
+__Hram                     ram           00000
+__Hramtop                  ramtop        01000
+__Hrbit                    rbit          00000
+__Hrbss                    rbss          00000
+__Hrdata                   rdata         00000
+__Hreset_vec               reset_vec     00006
+__Hrparam                  rparam        00000
+__Hsfr                     sfr           00000
+__Hsivt_hi                 sivt_hi       00000
+__Hsivt_lo                 sivt_lo       00018
+__Hsmallconst              smallconst    01002
+__Hspace_0                 (abs)         1FFF0
+__Hspace_1                 (abs)         00005
+__Hspace_2                 (abs)         00000
+__Hspace_4                 (abs)         3FFF0
+__Hstack                   stack         00000
+__Hstruct                  struct        00000
+__Htemp                    temp          00000
+__Htext                    text          00000
+__Htext0                   text0         00000
+__Htext1                   text1         00000
+__Htext2                   text2         00000
+__Htext3                   text3         00000
+__Htext4                   text4         00000
+__Htext5                   text5         00000
+__Htext6                   text6         00000
+__Htext7                   text7         00000
+__Htext8                   text8         00000
+__LRAM                     (abs)         00001
+__L__absolute__            __absolute__  00000
+__Labs1                    abs1          00000
+__Lbank0                   bank0         00000
+__Lbank1                   bank1         00000
+__Lbank10                  bank10        00000
+__Lbank11                  bank11        00000
+__Lbank12                  bank12        00000
+__Lbank13                  bank13        00000
+__Lbank2                   bank2         00000
+__Lbank3                   bank3         00000
+__Lbank4                   bank4         00000
+__Lbank5                   bank5         00000
+__Lbank6                   bank6         00000
+__Lbank7                   bank7         00000
+__Lbank8                   bank8         00000
+__Lbank9                   bank9         00000
+__Lbigbss                  bigbss        00000
+__Lbigdata                 bigdata       00000
+__Lbigram                  bigram        00000
+__Lbigsfr                  bigsfr        00000
+__Lbss                     bss           00000
+__Lcinit                   cinit         00000
+__Lclrtext                 clrtext       00000
+__Lcomram                  comram        00000
+__Lconfig                  config        00000
+__Lconst                   const         00000
+__LcstackCOMRAM            cstackCOMRAM  00000
+__Ldata                    data          00000
+__Lfarbss                  farbss        00000
+__Lfardata                 fardata       00000
+__Lheap                    heap          00000
+__Libigdata                ibigdata      00000
+__Lidata                   idata         00000
+__Lidloc                   idloc         00000
+__Lifardata                ifardata      00000
+__Linit                    init          1FFEC
+__Lintcode                 intcode       00008
+__Lintcode_body            intcode_body  00000
+__Lintcodelo               intcodelo     00018
+__Lintentry                intentry      00000
+__Lintret                  intret        00000
+__Lintsave_regs            intsave_regs  00000
+__Lirdata                  irdata        00000
+__Ljflash_buffer           jflash_buffer 1FBF8
+__Lmediumconst             mediumconst   00000
+__LnvFARRAM                nvFARRAM      00000
+__Lnvbit                   nvbit         00000
+__Lnvrram                  nvrram        00000
+__Lparam                   rparam        00000
+__Lpowerup                 powerup       00000
+__Lram                     ram           00000
+__Lramtop                  ramtop        01000
+__Lrbit                    rbit          00000
+__Lrbss                    rbss          00000
+__Lrdata                   rdata         00000
+__Lreset_vec               reset_vec     00000
+__Lrparam                  rparam        00000
+__Lsfr                     sfr           00000
+__Lsivt_hi                 sivt_hi       00000
+__Lsivt_lo                 sivt_lo       00018
+__Lsmallconst              smallconst    01000
+__Lspace_0                 (abs)         00000
+__Lspace_1                 (abs)         00000
+__Lspace_2                 (abs)         00000
+__Lspace_4                 (abs)         00000
+__Lstack                   stack         00000
+__Lstruct                  struct        00000
+__Ltemp                    temp          00000
+__Ltext                    text          00000
+__Ltext0                   text0         00000
+__Ltext1                   text1         00000
+__Ltext2                   text2         00000
+__Ltext3                   text3         00000
+__Ltext4                   text4         00000
+__Ltext5                   text5         00000
+__Ltext6                   text6         00000
+__Ltext7                   text7         00000
+__Ltext8                   text8         00000
+__S0                       (abs)         1FFF0
+__S1                       (abs)         00005
+__S4                       (abs)         00000
+___extmem_base             (abs)         20000
+___heap_hi                 (abs)         00000
+___heap_lo                 (abs)         00000
+___inthi_sp                stack         00000
+___inthi_stack_hi          stack         00000
+___inthi_stack_lo          stack         00000
+___intlo_sp                stack         00000
+___intlo_stack_hi          stack         00000
+___intlo_stack_lo          stack         00000
+___param_bank              (abs)         00000
+___rparam_used             (abs)         00001
+___sp                      stack         00000
+___stack_hi                stack         00000
+___stack_lo                stack         00000
+__accesstop                (abs)         00060
+__activetblptr             (abs)         00000
+__end_of_LIS_ReadAxis      text5         010E6
+__end_of_LIS_ReadRegister  text4         010C8
+__end_of_LIS_WriteRegister text3         01100
+__end_of_SPI2_Init         text2         0112A
+__end_of_SPI2_Transfer     text8         0111A
+__end_of_SPI_CS_High       text7         0113C
+__end_of_SPI_CS_Low        text6         01136
+__end_of_Spi_PinSet        text1         010AA
+__end_of__initialization   cinit         0112A
+__end_of_main              text0         0106A
+__initialization           cinit         0112A
+__mediumconst              smallconst    01000
+__pcinit                   cinit         0112A
+__pcstackCOMRAM            cstackCOMRAM  00001
+__psmallconst              smallconst    01000
+__ptext0                   text0         01002
+__ptext1                   text1         0106A
+__ptext2                   text2         0111A
+__ptext3                   text3         010E6
+__ptext4                   text4         010AA
+__ptext5                   text5         010C8
+__ptext6                   text6         01130
+__ptext7                   text7         01136
+__ptext8                   text8         01100
+__ramtop                   ramtop        01000
+__smallconst               smallconst    01000
+_main                      text0         01002
+end_of_initialization      cinit         0112A
+intlevel0                  text          00000
+intlevel1                  text          00000
+intlevel2                  text          00000
+intlevel3                  text          00000
+isa$std                    (abs)         00001
+isa$xinst                  (abs)         00000
+stackhi                    (abs)         00000
+stacklo                    (abs)         00000
+start                      init          1FFEC
+start_initialization       cinit         0112A
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+accelarometer.c
+		_SPI2_Init     		CODE           	111A	0000	16
+		_main          		CODE           	1002	0000	104
+		_SPI_CS_Low    		CODE           	1130	0000	6
+		_SPI_CS_High   		CODE           	1136	0000	6
+		_Spi_PinSet    		CODE           	106A	0000	64
+		_LIS_ReadAxis  		CODE           	10C8	0000	30
+		_SPI2_Transfer 		CODE           	1100	0000	26
+		_LIS_ReadRegister		CODE           	10AA	0000	30
+		_LIS_WriteRegister		CODE           	10E6	0000	26
+
+accelarometer.c estimated size: 308
+
+shared
+		__initialization		CODE           	112A	0000	1
+
+shared estimated size: 1
+

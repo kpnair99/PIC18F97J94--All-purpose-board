@@ -1,0 +1,339 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD EXTMEM ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F97J94 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"85 D:/Emirates/MOTHEBOARD_TESTING/PIC18F97J94_LCD_DISPLAY/Softeware/SSD1306.X/main.c
+[v _I2C_init I2C_init `(v  1 e 1 0 ]
+"96
+[v _I2C_start I2C_start `(v  1 e 1 0 ]
+"101
+[v _I2C_stop I2C_stop `(v  1 e 1 0 ]
+"106
+[v _I2C_write I2C_write `(v  1 e 1 0 ]
+"114
+[v _main main `(v  1 e 1 0 ]
+"14 D:/Emirates/MOTHEBOARD_TESTING/PIC18F97J94_LCD_DISPLAY/Softeware/SSD1306.X/ssd1306.c
+[v _SSD1306_Write SSD1306_Write `(v  1 s 1 SSD1306_Write ]
+"27
+[v _SSD1306_SetCursor SSD1306_SetCursor `(v  1 e 1 0 ]
+"38
+[v _SSD1306_Clear SSD1306_Clear `(v  1 e 1 0 ]
+"48
+[v _SSD1306_DrawChar SSD1306_DrawChar `(v  1 e 1 0 ]
+"58
+[v _SSD1306_DrawString SSD1306_DrawString `(v  1 e 1 0 ]
+"66
+[v _SSD1306_Init SSD1306_Init `(v  1 e 1 0 ]
+"15903 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-J_DFP/1.7.159/xc8\pic\include\proc/pic18f97j94.h
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @3842 ]
+"16023
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3843 ]
+[s S398 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"17044
+[s S407 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S410 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S417 . 1 `uc 1 SEN2 1 0 :1:0 
+`uc 1 ADMSK12 1 0 :1:1 
+`uc 1 ADMSK22 1 0 :1:2 
+`uc 1 ADMSK32 1 0 :1:3 
+`uc 1 ACKEN2 1 0 :1:4 
+`uc 1 ACKDT2 1 0 :1:5 
+`uc 1 ACKSTAT2 1 0 :1:6 
+`uc 1 GCEN2 1 0 :1:7 
+]
+[s S426 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN2 1 0 :1:1 
+`uc 1 PEN2 1 0 :1:2 
+`uc 1 RCEN2 1 0 :1:3 
+`uc 1 ADMSK42 1 0 :1:4 
+`uc 1 ADMSK52 1 0 :1:5 
+]
+[u S433 . 1 `S398 1 . 1 0 `S407 1 . 1 0 `S410 1 . 1 0 `S417 1 . 1 0 `S426 1 . 1 0 ]
+[v _SSP2CON2bits SSP2CON2bits `VES433  1 e 1 @3864 ]
+"17184
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3865 ]
+[s S332 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"17214
+[s S338 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S343 . 1 `uc 1 SSPM02 1 0 :1:0 
+`uc 1 SSPM12 1 0 :1:1 
+`uc 1 SSPM22 1 0 :1:2 
+`uc 1 SSPM32 1 0 :1:3 
+`uc 1 CKP2 1 0 :1:4 
+`uc 1 SSPEN2 1 0 :1:5 
+`uc 1 SSPOV2 1 0 :1:6 
+`uc 1 WCOL2 1 0 :1:7 
+]
+[u S352 . 1 `S332 1 . 1 0 `S338 1 . 1 0 `S343 1 . 1 0 ]
+[v _SSP2CON1bits SSP2CON1bits `VES352  1 e 1 @3865 ]
+"17304
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3866 ]
+[s S69 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"17453
+[s S72 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S75 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S84 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S89 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S94 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S97 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S100 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S105 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S110 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S116 . 1 `uc 1 BF2 1 0 :1:0 
+`uc 1 UA2 1 0 :1:1 
+`uc 1 I2C_READ2 1 0 :1:2 
+`uc 1 I2C_START2 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA2 1 0 :1:5 
+`uc 1 CKE2 1 0 :1:6 
+`uc 1 SMP2 1 0 :1:7 
+]
+[s S125 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE2 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS2 1 0 :1:5 
+]
+[s S131 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW2 1 0 :1:2 
+`uc 1 START2 1 0 :1:3 
+`uc 1 STOP2 1 0 :1:4 
+`uc 1 D_A2 1 0 :1:5 
+]
+[s S137 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A2 1 0 :1:5 
+]
+[s S140 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W2 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D_nA2 1 0 :1:5 
+]
+[s S146 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W2 1 0 :1:2 
+]
+[s S149 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT2 1 0 :1:5 
+]
+[s S154 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S157 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S160 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S165 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE2 1 0 :1:2 
+]
+[s S168 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS2 1 0 :1:5 
+]
+[s S171 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS2 1 0 :1:5 
+]
+[s S176 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S181 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DA 1 0 :1:5 
+]
+[u S186 . 1 `S69 1 . 1 0 `S72 1 . 1 0 `S75 1 . 1 0 `S84 1 . 1 0 `S89 1 . 1 0 `S94 1 . 1 0 `S97 1 . 1 0 `S100 1 . 1 0 `S105 1 . 1 0 `S110 1 . 1 0 `S116 1 . 1 0 `S125 1 . 1 0 `S131 1 . 1 0 `S137 1 . 1 0 `S140 1 . 1 0 `S146 1 . 1 0 `S149 1 . 1 0 `S154 1 . 1 0 `S157 1 . 1 0 `S160 1 . 1 0 `S165 1 . 1 0 `S168 1 . 1 0 `S171 1 . 1 0 `S176 1 . 1 0 `S181 1 . 1 0 ]
+[v _SSP2STATbits SSP2STATbits `VES186  1 e 1 @3866 ]
+[s S377 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"25980
+[u S386 . 1 `S377 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES386  1 e 1 @3989 ]
+"13 D:/Emirates/MOTHEBOARD_TESTING/PIC18F97J94_LCD_DISPLAY/Softeware/SSD1306.X/font6x8.h
+[v _FONTS FONTS `C[96][6]uc  1 s 576 FONTS ]
+"114 D:/Emirates/MOTHEBOARD_TESTING/PIC18F97J94_LCD_DISPLAY/Softeware/SSD1306.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"130
+} 0
+"66 D:/Emirates/MOTHEBOARD_TESTING/PIC18F97J94_LCD_DISPLAY/Softeware/SSD1306.X/ssd1306.c
+[v _SSD1306_Init SSD1306_Init `(v  1 e 1 0 ]
+{
+"80
+} 0
+"58
+[v _SSD1306_DrawString SSD1306_DrawString `(v  1 e 1 0 ]
+{
+[v SSD1306_DrawString@col col `uc  1 p 1 wreg ]
+[v SSD1306_DrawString@col col `uc  1 p 1 wreg ]
+[v SSD1306_DrawString@page page `uc  1 p 1 16 ]
+[v SSD1306_DrawString@str str `*.32Cuc  1 p 2 17 ]
+[v SSD1306_DrawString@col col `uc  1 p 1 19 ]
+"63
+} 0
+"48
+[v _SSD1306_DrawChar SSD1306_DrawChar `(v  1 e 1 0 ]
+{
+[v SSD1306_DrawChar@col col `uc  1 p 1 wreg ]
+"52
+[v SSD1306_DrawChar@i i `uc  1 a 1 15 ]
+"50
+[v SSD1306_DrawChar@glyph glyph `*.32Cuc  1 a 2 12 ]
+"48
+[v SSD1306_DrawChar@col col `uc  1 p 1 wreg ]
+[v SSD1306_DrawChar@page page `uc  1 p 1 6 ]
+[v SSD1306_DrawChar@ch ch `uc  1 p 1 7 ]
+[v SSD1306_DrawChar@col col `uc  1 p 1 14 ]
+"55
+} 0
+"38
+[v _SSD1306_Clear SSD1306_Clear `(v  1 e 1 0 ]
+{
+"41
+[v SSD1306_Clear@col col `uc  1 a 1 6 ]
+"39
+[v SSD1306_Clear@page page `uc  1 a 1 7 ]
+"45
+} 0
+"27
+[v _SSD1306_SetCursor SSD1306_SetCursor `(v  1 e 1 0 ]
+{
+[v SSD1306_SetCursor@col col `uc  1 p 1 wreg ]
+[v SSD1306_SetCursor@col col `uc  1 p 1 wreg ]
+[v SSD1306_SetCursor@page page `uc  1 p 1 4 ]
+[v SSD1306_SetCursor@col col `uc  1 p 1 5 ]
+"35
+} 0
+"14
+[v _SSD1306_Write SSD1306_Write `(v  1 s 1 SSD1306_Write ]
+{
+[v SSD1306_Write@control control `uc  1 p 1 wreg ]
+[v SSD1306_Write@control control `uc  1 p 1 wreg ]
+[v SSD1306_Write@value value `uc  1 p 1 1 ]
+[v SSD1306_Write@control control `uc  1 p 1 3 ]
+"24
+} 0
+"106 D:/Emirates/MOTHEBOARD_TESTING/PIC18F97J94_LCD_DISPLAY/Softeware/SSD1306.X/main.c
+[v _I2C_write I2C_write `(v  1 e 1 0 ]
+{
+[v I2C_write@data data `uc  1 p 1 wreg ]
+[v I2C_write@data data `uc  1 p 1 wreg ]
+[v I2C_write@data data `uc  1 p 1 0 ]
+"110
+} 0
+"101
+[v _I2C_stop I2C_stop `(v  1 e 1 0 ]
+{
+"104
+} 0
+"96
+[v _I2C_start I2C_start `(v  1 e 1 0 ]
+{
+"99
+} 0
+"85
+[v _I2C_init I2C_init `(v  1 e 1 0 ]
+{
+"94
+} 0
